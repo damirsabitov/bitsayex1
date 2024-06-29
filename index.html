@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/new_reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="backdrop" id="backdrop"></div>
+  <header class="header header--fixed">
+    <nav class="nav">
+      <div class="nav__container container">
+        <div class="nav__start">
+          <a href="#" class="nav__link nav__link--logo logo">
+            <img class="icon logo__icon" width="31px" height="35px" class="logo__icon" src="img/logo.svg" alt="logo" />
+            <span class="logo__title">Bitsayex</span>
+          </a>
+        </div>
+        <div class="nav__center">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                Trade
+              </a>
+              <div class="nav__dropdown">
+                <ul class="nav__list nav__list--vertical">
+                  <li class="nav__item__dropdown">
+                    <a href="#" class="nav__link__dropdown">
+                      <img class="nav__img" src="img/f1.svg" alt="Frame">
+                      <div class="nav__link-text">
+                        <div class="nav__link-title">Spot Trading</div>
+                        <div class="nav__link-subtitle">Trade in a second</div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+            </li>
+
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                Buy Crypto
+              </a>
+              <div class="nav__dropdown">
+                <ul class="nav__list nav__list--vertical">
+                  <li class="nav__item__dropdown">
+                    <a href="#" class="nav__link__dropdown">
+                      <img class="nav__img" src="img/f2.svg" alt="Frame">
+                      <div class="nav__link-text">
+                        <div class="nav__link-title">Third-Party Payment</div>
+                        <div class="nav__link-subtitle">Visa/MasterCard powered</div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+            </li>
+
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                Market Tools
+              </a>
+              <div class="nav__dropdown">
+                <ul class="nav__list nav__list--vertical">
+                  <li class="nav__item__dropdown-market">
+                    <a href="#" class="nav__link__dropdown-market">
+                      <img class="nav__img" src="img/f3.svg" alt="Frame">
+                      <div class="nav__link-text">
+                        <div class="nav__link-title">Crypto Market Cap</div>
+                        <div class="nav__link-subtitle">Most of the available crypto assets and sorts them based on the
+                          market capitalization</div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="nav__item__dropdown-market">
+                    <a href="#" class="nav__link__dropdown-market">
+                      <img class="nav__img" src="img/f4.svg" alt="Frame">
+                      <div class="nav__link-text">
+                        <div class="nav__link-title">Market Screener</div>
+                        <div class="nav__link-subtitle">Powerful tool that allows to filter instruments based on
+                          fundamental data and various technical indicators</div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="nav__item__dropdown-market">
+                    <a href="#" class="nav__link__dropdown-market">
+                      <img class="nav__img" src="img/f4.svg" alt="Frame">
+                      <div class="nav__link-text">
+                        <div class="nav__link-title">Technical Analysis</div>
+                        <div class="nav__link-subtitle">Advanced tool that displays ratings based on technical
+                          indicators</div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="nav__item__dropdown-market">
+                    <a href="#" class="nav__link__dropdown-market">
+                      <img class="nav__img" src="img/f5.svg" alt="Frame">
+                      <div class="nav__link-text">
+                        <div class="nav__link-title">Cross Rates</div>
+                        <div class="nav__link-subtitle">Real-time quotes of the selected currencies in comparison to the
+                          other major currencies at a glance</div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="nav__item__dropdown-market">
+                    <a href="#" class=" nav__link__dropdown-market">
+                      <img class="nav__img" src="img/f6.svg" alt="Frame">
+                      <div class="nav__link-text">
+                        <div class="nav__link-title">Currency Heat Map</div>
+                        <div class="nav__link-subtitle">Quick overview of action in the currency markets. It lets you
+                          spot strong and weak currencies in real-time and how strong they are in relation to one
+                          another</div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+            </li>
+
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                Finance
+              </a>
+              <div class="nav__dropdown">
+                <ul class="nav__list nav__list--vertical">
+                  <li class="nav__item__dropdown">
+                    <a href="#" class="nav__link__dropdown">
+                      <img class="nav__img" src="img/f7.svg" alt="Frame">
+                      <div class="nav__link-text">
+                        <div class="nav__link-title">Earn</div>
+                        <div class="nav__link-subtitle">Don’t Hold. Just Earn</div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+            </li>
+
+            <li class="nav__item"><a href="#" class="nav__link">News</a></li>
+          </ul>
+        </div>
+        <div class="nav__end">
+          <ul class="nav__list nav__list--space">
+            <li class="nav__item"><a class="nav__link" href="cabinet.html">Log In</a></li>
+            <li class="nav__item"><a class="nav__link nav__link--button" href="cabinet.html">Open Free Account</a></li>
+          </ul>
+          <div class="burger">
+            <a id="profileLink" class="nav__profile--link" href="cabinet.html">
+              <img class="nav__profile--img" src="img/user-square.svg" alt="profile">
+              <p class="nav__profile--paragraph">Profile</p>
+            </a>
+            <a id="burgerIcon" class="burger__button" href="#" onclick="toggleDialog()">
+              <div class="burger__icon">
+                <img src="img/burger.svg" alt="burger">
+              </div>
+            </a>
+            <div id="myDialog" class="dialog" style="display: none;">
+              <ul class="nav__list--burger">
+                <li class="nav__item nav__item--burger">
+                  <a href="#" class="nav__link nav__link--burger">
+                    Trade
+                  </a>
+                  <div class="nav__dropdown nav__dropdown--burger">
+                    <ul class="nav__list nav__list--burger nav__list--vertical nav__list--vertical--burger">
+                      <li class="nav__item__dropdown nav__item__dropdown--burger">
+                        <a href="#" class="nav__link__dropdown nav__link__dropdown--burger">
+                          <img class="nav__img nav__img--burger" src="img/arrange-square.svg" alt="Frame">
+                          <div class="nav__link-text nav__link-text--burger">
+                            <div class="nav__link-title nav__link-title--burger">Spot Trading</div>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav__item nav__item--burger">
+                  <a href="#" class="nav__link nav__link--burger">
+                    Buy Crypto
+                  </a>
+                  <div class="nav__dropdown nav__dropdown--burger">
+                    <ul class="nav__list nav__list--burger nav__list--vertical nav__list--vertical--burger">
+                      <li class="nav__item__dropdown nav__item__dropdown--burger">
+                        <a href="#" class="nav__link__dropdown nav__link__dropdown--burger">
+                          <img class="nav__img  nav__img--burger" src="img/card1.svg" alt="Frame">
+                          <div class="nav__link-text nav__link-text--burger">
+                            <div class="nav__link-title nav__link-title--burger">Third-Party Payment</div>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav__item nav__item--burger">
+                  <a href="#" class="nav__link nav__link--burger">
+                    Market Tools
+                  </a>
+                  <div class="nav__dropdown nav__dropdown--burger">
+                    <ul class="nav__list nav__list--burger nav__list--vertical nav__list--vertical--burger">
+                      <li class="nav__item__dropdown nav__item__dropdown--burger">
+                        <a href="#" class="nav__link__dropdown nav__link__dropdown--burger">
+                          <img class="nav__img  nav__img--burger" src="img/card2.svg" alt="Frame">
+                          <div class="nav__link-text nav__link-text--burger">
+                            <div class="nav__link-title nav__link-title--burger">Crypto Market Cap</div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="nav__item__dropdown nav__item__dropdown--burger">
+                        <a href="#" class="nav__link__dropdown nav__link__dropdown--burger">
+                          <img class="nav__img nav__img--burger" src="img/card1.svg" alt="Frame">
+                          <div class="nav__link-text nav__link-text--burger">
+                            <div class="nav__link-title nav__link-title--burger">Market Screener</div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="nav__item__dropdown nav__item__dropdown--burger">
+                        <a href="#" class="nav__link__dropdown nav__link__dropdown--burger">
+                          <img class="nav__img nav__img--burger" src="img/card3.svg" alt="Frame">
+                          <div class="nav__link-text nav__link-text--burger">
+                            <div class="nav__link-title nav__link-title--burger">Technical Analysis</div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="nav__item__dropdown nav__item__dropdown--burger">
+                        <a href="#" class="nav__link__dropdown nav__link__dropdown--burger">
+                          <img class="nav__img nav__img--burger" src="img/card4.svg" alt="Frame">
+                          <div class="nav__link-text nav__link-text--burger">
+                            <div class="nav__link-title nav__link-title--burger">Cross Rates</div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="nav__item__dropdown nav__item__dropdown--burger">
+                        <a href="#" class=" nav__link__dropdown nav__link__dropdown--burger">
+                          <img class="nav__img nav__img--burger" src="img/card5.svg" alt="Frame">
+                          <div class="nav__link-text nav__link-text--burger">
+                            <div class="nav__link-title nav__link-title--burger">Currency Heat Map</div>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav__item nav__item--burger">
+                  <a href="#" class="nav__link nav__link--burger">
+                    Finance
+                  </a>
+                  <div class="nav__dropdown nav__dropdown--burger">
+                    <ul class="nav__list nav__list--burger nav__list--vertical nav__list--vertical--burger">
+                      <li class="nav__item__dropdown nav__item__dropdown--burger">
+                        <a href="#" class="nav__link__dropdown nav__link__dropdown--burger">
+                          <img class="nav__img nav__img--burger" src="img/card6.svg" alt="Frame">
+                          <div class="nav__link-text nav__link-text--burger">
+                            <div class="nav__link-title nav__link-title--burger">Earn</div>
+
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav__item nav__item--burger"><a href="#" class="nav__link nav__link--burger">News</a></li>
+              </ul>
+              <div class="dialog__buttons">
+                <button class="dialog__button">Start Trading<img src="img/arrange-square.svg" alt="img"></button>
+                <button class="dialog__button dialog__button--two">Log In</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="section section--hero">
+      <div class=" container">
+        <div class="container__info">
+          <h1 class="info__h1">Hold and earn interest with Bitsayex Earn</h1>
+          <div class="info__p">
+            <p>Hold money to earn interest.</p>
+            <p> We make earning simple and straight<br class="info__span">forward helping you enhance your financial
+              security.</p>
+          </div>
+          <div class="info__buttons">
+            <a class="info__link-start" href="#">Start Trading
+              <img src="img/arrange-square.svg" alt="img">
+            </a>
+            <a class="info__link-end" href="#">Log In</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section ">
+      <div class="container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="crypto__slide">
+                <div class="crypto__name crypto__name--slide">
+                  <img class="cripto__img cripto__img--slide" src="img/eth.svg" alt="eth">
+                  <div class="crypto__p crypto__p--slide">
+                    <p class="crypto__p-older crypto__p-older--slide">Ethereum</p>
+                    <p class="crypto__p-child crypto__p-child--slide">Nov 5, 2022, 2:43 pm</p>
+                  </div>
+                  <div class="crypto__procent crypto__procent--slide">
+                    <p class="crypto__procent-p crypto__procent-p--slide"><img
+                        class="crypto__procent-arrow crypto__procent-arrow--slide" src="img/arrow.svg"
+                        alt="strelo4ka">2,3%</p>
+                  </div>
+                </div>
+                <div class="crypto__info--slide">
+                  <div class="crypto__summa crypto__summa--slide">
+                    <p class="crypto__summa-doll crypto__summa-doll--slide">$0,50<span
+                        class="crypto__summa-cent">.44</span></p>
+                  </div>
+                  <img src="img/crypto__grafic--mini.svg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="crypto__slide">
+                <div class="crypto__name crypto__name--slide">
+                  <img class="cripto__img cripto__img--slide" src="img/eth.svg" alt="eth">
+                  <div class="crypto__p crypto__p--slide">
+                    <p class="crypto__p-older crypto__p-older--slide">Ethereum</p>
+                    <p class="crypto__p-child crypto__p-child--slide">Nov 5, 2022, 2:43 pm</p>
+                  </div>
+                  <div class="crypto__procent crypto__procent--slide">
+                    <p class="crypto__procent-p crypto__procent-p--slide"><img
+                        class="crypto__procent-arrow crypto__procent-arrow--slide" src="img/arrow.svg"
+                        alt="strelo4ka">2,3%</p>
+                  </div>
+                </div>
+                <div class="crypto__info--slide">
+                  <div class="crypto__summa crypto__summa--slide">
+                    <p class="crypto__summa-doll crypto__summa-doll--slide">$0,50<span
+                        class="crypto__summa-cent">.44</span></p>
+                  </div>
+                  <img src="img/crypto__grafic--mini.svg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="crypto__slide">
+                <div class="crypto__name crypto__name--slide">
+                  <img class="cripto__img cripto__img--slide" src="img/eth.svg" alt="eth">
+                  <div class="crypto__p crypto__p--slide">
+                    <p class="crypto__p-older crypto__p-older--slide">Ethereum</p>
+                    <p class="crypto__p-child crypto__p-child--slide">Nov 5, 2022, 2:43 pm</p>
+                  </div>
+                  <div class="crypto__procent crypto__procent--slide">
+                    <p class="crypto__procent-p crypto__procent-p--slide"><img
+                        class="crypto__procent-arrow crypto__procent-arrow--slide" src="img/arrow.svg"
+                        alt="strelo4ka">2,3%</p>
+                  </div>
+                </div>
+                <div class="crypto__info--slide">
+                  <div class="crypto__summa crypto__summa--slide">
+                    <p class="crypto__summa-doll crypto__summa-doll--slide">$0,50<span
+                        class="crypto__summa-cent">.44</span></p>
+                  </div>
+                  <img src="img/crypto__grafic--mini.svg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="crypto__slide">
+                <div class="crypto__name crypto__name--slide">
+                  <img class="cripto__img cripto__img--slide" src="img/eth.svg" alt="eth">
+                  <div class="crypto__p crypto__p--slide">
+                    <p class="crypto__p-older crypto__p-older--slide">Ethereum</p>
+                    <p class="crypto__p-child crypto__p-child--slide">Nov 5, 2022, 2:43 pm</p>
+                  </div>
+                  <div class="crypto__procent crypto__procent--slide">
+                    <p class="crypto__procent-p crypto__procent-p--slide"><img
+                        class="crypto__procent-arrow crypto__procent-arrow--slide" src="img/arrow.svg"
+                        alt="strelo4ka">2,3%</p>
+                  </div>
+                </div>
+                <div class="crypto__info--slide">
+                  <div class="crypto__summa crypto__summa--slide">
+                    <p class="crypto__summa-doll crypto__summa-doll--slide">$0,50<span
+                        class="crypto__summa-cent">.44</span></p>
+                  </div>
+                  <img src="img/crypto__grafic--mini.svg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="crypto__slide">
+                <div class="crypto__name crypto__name--slide">
+                  <img class="cripto__img cripto__img--slide" src="img/eth.svg" alt="eth">
+                  <div class="crypto__p crypto__p--slide">
+                    <p class="crypto__p-older crypto__p-older--slide">Ethereum</p>
+                    <p class="crypto__p-child crypto__p-child--slide">Nov 5, 2022, 2:43 pm</p>
+                  </div>
+                  <div class="crypto__procent crypto__procent--slide">
+                    <p class="crypto__procent-p crypto__procent-p--slide"><img
+                        class="crypto__procent-arrow crypto__procent-arrow--slide" src="img/arrow.svg"
+                        alt="strelo4ka">2,3%</p>
+                  </div>
+                </div>
+                <div class="crypto__info--slide">
+                  <div class="crypto__summa crypto__summa--slide">
+                    <p class="crypto__summa-doll crypto__summa-doll--slide">$0,50<span
+                        class="crypto__summa-cent">.44</span></p>
+                  </div>
+                  <img src="img/crypto__grafic--mini.svg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="cards__crypto">
+          <div class="card__crypto">
+            <div class="crypto__name">
+              <img class="cripto__img" src="img/eth.svg" alt="eth">
+              <div class="crypto__p">
+                <p class="crypto__p-older">BUSD</p>
+                <p class="crypto__p-child">Nov 5, 2022, 2:43 pm</p>
+              </div>
+
+            </div>
+            <div class="crypto__summa">
+              <p class="crypto__summa-doll">$0,50<span class="crypto__summa-cent">.44</span></p>
+              <div class="crypto__procent">
+                <p class="crypto__procent-p"><img class="crypto__procent-arrow" src="img/arrow.svg" alt="strelo4ka">2,3%
+                </p>
+              </div>
+            </div>
+            <div class="crypto__grafic">
+              <svg class="crypto__grafic-svg" width="229" height="120" viewBox="0 0 290 120" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.6448 88.8945L2.0083 68.5263V122H288.375V34.4636L274.738 90.3087L261.102 100.357L247.465 1L233.829 60.1146L220.192 27.2665L206.556 11.6655L192.919 77.1338L179.283 64.6249L165.646 45.5616L152.01 97.211L138.373 93.6898L124.737 112.447L111.1 29.7838L97.4639 80.553L83.8273 16.8481L70.1908 66.1525L56.5543 73.5401L42.9178 90.6804L29.2813 95.701L15.6448 88.8945Z"
+                  fill="url(#paint0_linear_251_3069)" />
+                <path
+                  d="M1 68.8156L14.7325 89.2712L28.4651 96.1069L42.1976 91.0648L55.9302 73.851L69.6627 66.4317L83.3952 16.916L97.1278 80.8939L110.86 29.9072L124.593 112.925L138.325 94.087L152.058 97.6233L165.79 45.7525L179.523 64.8975L193.256 77.4601L206.988 11.7112L220.721 27.3791L234.453 60.3679L248.186 1L261.918 100.783L275.651 90.6914L289.383 34.6071"
+                  stroke="#00BDB0" stroke-linejoin="round" />
+                <defs>
+                  <linearGradient id="paint0_linear_251_3069" x1="145.192" y1="1" x2="145.192" y2="122"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#00BDB0" stop-opacity="0.3" />
+                    <stop offset="1" stop-color="#00BDB0" stop-opacity="0" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <div class="crypto_button">
+              <div class="crypto__btn">
+                <a class="crypto__btn-link" href=".">24h volume: <span
+                    class="crypto__btn-link__summ">$45,694,645</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="card__crypto">
+            <div class="crypto__name">
+              <img class="cripto__img" src="img/eth.svg" alt="eth">
+              <div class="crypto__p">
+                <p class="crypto__p-older">BUSD</p>
+                <p class="crypto__p-child">Nov 5, 2022, 2:43 pm</p>
+              </div>
+            </div>
+            <div class="crypto__summa">
+              <p class="crypto__summa-doll">$0,50<span class="crypto__summa-cent">.44</span></p>
+              <div class="crypto__procent">
+                <p class="crypto__procent-p"><img class="crypto__procent-arrow" src="img/arrow.svg" alt="strelo4ka">2,3%
+                </p>
+              </div>
+            </div>
+            <div class="crypto__grafic">
+              <svg class="crypto__grafic-svg" width="229" height="120" viewBox="0 0 290 120" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.6448 88.8945L2.0083 68.5263V122H288.375V34.4636L274.738 90.3087L261.102 100.357L247.465 1L233.829 60.1146L220.192 27.2665L206.556 11.6655L192.919 77.1338L179.283 64.6249L165.646 45.5616L152.01 97.211L138.373 93.6898L124.737 112.447L111.1 29.7838L97.4639 80.553L83.8273 16.8481L70.1908 66.1525L56.5543 73.5401L42.9178 90.6804L29.2813 95.701L15.6448 88.8945Z"
+                  fill="url(#paint0_linear_251_3069)" />
+                <path
+                  d="M1 68.8156L14.7325 89.2712L28.4651 96.1069L42.1976 91.0648L55.9302 73.851L69.6627 66.4317L83.3952 16.916L97.1278 80.8939L110.86 29.9072L124.593 112.925L138.325 94.087L152.058 97.6233L165.79 45.7525L179.523 64.8975L193.256 77.4601L206.988 11.7112L220.721 27.3791L234.453 60.3679L248.186 1L261.918 100.783L275.651 90.6914L289.383 34.6071"
+                  stroke="#00BDB0" stroke-linejoin="round" />
+                <defs>
+                  <linearGradient id="paint0_linear_251_3069" x1="145.192" y1="1" x2="145.192" y2="122"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#00BDB0" stop-opacity="0.3" />
+                    <stop offset="1" stop-color="#00BDB0" stop-opacity="0" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <div class="crypto_button">
+              <div class="crypto__btn">
+                <a class="crypto__btn-link" href=".">24h volume: <span
+                    class="crypto__btn-link__summ">$45,694,645</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="card__crypto">
+            <div class="crypto__name">
+              <img class="cripto__img" src="img/eth.svg" alt="eth">
+              <div class="crypto__p">
+                <p class="crypto__p-older">BUSD</p>
+                <p class="crypto__p-child">Nov 5, 2022, 2:43 pm</p>
+              </div>
+            </div>
+            <div class="crypto__summa">
+              <p class="crypto__summa-doll">$0,50<span class="crypto__summa-cent">.44</span></p>
+              <div class="crypto__procent">
+                <p class="crypto__procent-p"><img class="crypto__procent-arrow" src="img/arrow.svg" alt="strelo4ka">2,3%
+                </p>
+              </div>
+            </div>
+            <div class="crypto__grafic">
+              <svg class="crypto__grafic-svg" width="229" height="120" viewBox="0 0 290 120" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.6448 88.8945L2.0083 68.5263V122H288.375V34.4636L274.738 90.3087L261.102 100.357L247.465 1L233.829 60.1146L220.192 27.2665L206.556 11.6655L192.919 77.1338L179.283 64.6249L165.646 45.5616L152.01 97.211L138.373 93.6898L124.737 112.447L111.1 29.7838L97.4639 80.553L83.8273 16.8481L70.1908 66.1525L56.5543 73.5401L42.9178 90.6804L29.2813 95.701L15.6448 88.8945Z"
+                  fill="url(#paint0_linear_251_3069)" />
+                <path
+                  d="M1 68.8156L14.7325 89.2712L28.4651 96.1069L42.1976 91.0648L55.9302 73.851L69.6627 66.4317L83.3952 16.916L97.1278 80.8939L110.86 29.9072L124.593 112.925L138.325 94.087L152.058 97.6233L165.79 45.7525L179.523 64.8975L193.256 77.4601L206.988 11.7112L220.721 27.3791L234.453 60.3679L248.186 1L261.918 100.783L275.651 90.6914L289.383 34.6071"
+                  stroke="#00BDB0" stroke-linejoin="round" />
+                <defs>
+                  <linearGradient id="paint0_linear_251_3069" x1="145.192" y1="1" x2="145.192" y2="122"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#00BDB0" stop-opacity="0.3" />
+                    <stop offset="1" stop-color="#00BDB0" stop-opacity="0" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <div class="crypto_button">
+              <div class="crypto__btn">
+                <a class="crypto__btn-link" href=".">24h volume: <span
+                    class="crypto__btn-link__summ">$45,694,645</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="card__crypto">
+            <div class="crypto__name">
+              <img class="cripto__img" src="img/eth.svg" alt="eth">
+              <div class="crypto__p">
+                <p class="crypto__p-older">BUSD</p>
+                <p class="crypto__p-child">Nov 5, 2022, 2:43 pm</p>
+              </div>
+            </div>
+            <div class="crypto__summa">
+              <p class="crypto__summa-doll">$0,50<span class="crypto__summa-cent">.44</span></p>
+              <div class="crypto__procent">
+                <p class="crypto__procent-p"><img class="crypto__procent-arrow" src="img/arrow.svg" alt="strelo4ka">2,3%
+                </p>
+              </div>
+            </div>
+            <div class="crypto__grafic">
+              <svg class="crypto__grafic-svg" width="229" height="120" viewBox="0 0 290 120" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.6448 88.8945L2.0083 68.5263V122H288.375V34.4636L274.738 90.3087L261.102 100.357L247.465 1L233.829 60.1146L220.192 27.2665L206.556 11.6655L192.919 77.1338L179.283 64.6249L165.646 45.5616L152.01 97.211L138.373 93.6898L124.737 112.447L111.1 29.7838L97.4639 80.553L83.8273 16.8481L70.1908 66.1525L56.5543 73.5401L42.9178 90.6804L29.2813 95.701L15.6448 88.8945Z"
+                  fill="url(#paint0_linear_251_3069)" />
+                <path
+                  d="M1 68.8156L14.7325 89.2712L28.4651 96.1069L42.1976 91.0648L55.9302 73.851L69.6627 66.4317L83.3952 16.916L97.1278 80.8939L110.86 29.9072L124.593 112.925L138.325 94.087L152.058 97.6233L165.79 45.7525L179.523 64.8975L193.256 77.4601L206.988 11.7112L220.721 27.3791L234.453 60.3679L248.186 1L261.918 100.783L275.651 90.6914L289.383 34.6071"
+                  stroke="#00BDB0" stroke-linejoin="round" />
+                <defs>
+                  <linearGradient id="paint0_linear_251_3069" x1="145.192" y1="1" x2="145.192" y2="122"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#00BDB0" stop-opacity="0.3" />
+                    <stop offset="1" stop-color="#00BDB0" stop-opacity="0" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <div class="crypto_button">
+              <div class="crypto__btn">
+                <a class="crypto__btn-link" href=".">24h volume: <span
+                    class="crypto__btn-link__summ">$45,694,645</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="card__crypto">
+            <div class="crypto__name">
+              <img class="cripto__img" src="img/eth.svg" alt="eth">
+              <div class="crypto__p">
+                <p class="crypto__p-older">BUSD</p>
+                <p class="crypto__p-child">Nov 5, 2022, 2:43 pm</p>
+              </div>
+            </div>
+            <div class="crypto__summa">
+              <p class="crypto__summa-doll">$0,50<span class="crypto__summa-cent">.44</span></p>
+              <div class="crypto__procent">
+                <p class="crypto__procent-p"><img class="crypto__procent-arrow" src="img/arrow.svg" alt="strelo4ka">2,3%
+                </p>
+              </div>
+            </div>
+            <div class="crypto__grafic">
+              <svg class="crypto__grafic-svg" width="229" height="120" viewBox="0 0 290 120" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.6448 88.8945L2.0083 68.5263V122H288.375V34.4636L274.738 90.3087L261.102 100.357L247.465 1L233.829 60.1146L220.192 27.2665L206.556 11.6655L192.919 77.1338L179.283 64.6249L165.646 45.5616L152.01 97.211L138.373 93.6898L124.737 112.447L111.1 29.7838L97.4639 80.553L83.8273 16.8481L70.1908 66.1525L56.5543 73.5401L42.9178 90.6804L29.2813 95.701L15.6448 88.8945Z"
+                  fill="url(#paint0_linear_251_3069)" />
+                <path
+                  d="M1 68.8156L14.7325 89.2712L28.4651 96.1069L42.1976 91.0648L55.9302 73.851L69.6627 66.4317L83.3952 16.916L97.1278 80.8939L110.86 29.9072L124.593 112.925L138.325 94.087L152.058 97.6233L165.79 45.7525L179.523 64.8975L193.256 77.4601L206.988 11.7112L220.721 27.3791L234.453 60.3679L248.186 1L261.918 100.783L275.651 90.6914L289.383 34.6071"
+                  stroke="#00BDB0" stroke-linejoin="round" />
+                <defs>
+                  <linearGradient id="paint0_linear_251_3069" x1="145.192" y1="1" x2="145.192" y2="122"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#00BDB0" stop-opacity="0.3" />
+                    <stop offset="1" stop-color="#00BDB0" stop-opacity="0" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <div class="crypto_button">
+              <div class="crypto__btn">
+                <a class="crypto__btn-link" href=".">24h volume: <span
+                    class="crypto__btn-link__summ">$45,694,645</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="_section">
+      <div class=" _section__container container">
+
+        <header class="_section__header">
+          <h2 class="_section__title">Markets</h2>
+          <a class="_section__link" href="index_table.html">See All Markets</a>
+        </header>
+
+        <div class="_section__overflow">
+          <table class="_table">
+
+            <thead class="_table__header">
+              <tr class="_table__row">
+                <th class="_table__title"></th>
+                <th class="_table__title">Token</th>
+                <th class="_table__title">Last Price (USDT)</th>
+                <th class="_table__title">Change</th>
+                <th class="_table__title">24h Vol </th>
+                <th class="_table__title">Markets</th>
+              </tr>
+            </thead>
+
+            <tbody class="_table__body">
+              <tr class="_table__row">
+                <td class="_table__data">
+                  <img class="__table__favorite" src="img/star.svg" alt="">
+                </td>
+                <td class="_table__data">
+                  <div class="_table__coin">
+                    <img class="_table__coin-icon" src="img/Safepal1.svg" alt="eth">
+                    <div class="_table__coin-title">Ethereum <span class="_table__coin-code">(ETH)</span></div>
+                  </div>
+                </td>
+                <td class="_table__data">$1644,91.03</td>
+                <td class="_table__data">
+                  <div class="_table__quotes">
+                    <img class="_table__quotes-icon" src="img/arrow.svg" alt="arrow">
+                    <div class="_table__quotes-value">4.76%</div>
+                  </div>
+                </td>
+                <td class="_table__data">4.76%</td>
+                <td class="_table__data">
+                  <img class="_table__grafic" src="img/Vector.svg" alt="">
+                </td>
+              </tr>
+              <tr class="_table__row">
+                <td class="_table__data">
+                  <img class="__table__favorite" src="img/star.svg" alt="">
+                </td>
+                <td class="_table__data">
+                  <div class="_table__coin">
+                    <img class="_table__coin-icon" src="img/Safepal1.svg" alt="eth">
+                    <div class="_table__coin-title">Ethereum <span class="_table__coin-code">(ETH)</span></div>
+                  </div>
+                </td>
+                <td class="_table__data">$1644,91.03</td>
+                <td class="_table__data">
+                  <div class="_table__quotes">
+                    <img class="_table__quotes-icon" src="img/arrow.svg" alt="arrow">
+                    <div class="_table__quotes-value">4.76%</div>
+                  </div>
+                </td>
+                <td class="_table__data">4.76%</td>
+                <td class="_table__data">
+                  <img class="_table__grafic" src="img/Vector.svg" alt="">
+                </td>
+              </tr>
+              <tr class="_table__row">
+                <td class="_table__data">
+                  <img class="__table__favorite" src="img/star.svg" alt="">
+                </td>
+                <td class="_table__data">
+                  <div class="_table__coin">
+                    <img class="_table__coin-icon" src="img/Safepal1.svg" alt="eth">
+                    <div class="_table__coin-title">Ethereum <span class="_table__coin-code">(ETH)</span></div>
+                  </div>
+                </td>
+                <td class="_table__data">$1644,91.03</td>
+                <td class="_table__data">
+                  <div class="_table__quotes">
+                    <img class="_table__quotes-icon" src="img/arrow.svg" alt="arrow">
+                    <div class="_table__quotes-value">4.76%</div>
+                  </div>
+                </td>
+                <td class="_table__data">4.76%</td>
+                <td class="_table__data">
+                  <img class="_table__grafic" src="img/Vector.svg" alt="">
+                </td>
+              </tr>
+              <tr class="_table__row">
+                <td class="_table__data">
+                  <img class="__table__favorite" src="img/star.svg" alt="">
+                </td>
+                <td class="_table__data">
+                  <div class="_table__coin">
+                    <img class="_table__coin-icon" src="img/Safepal1.svg" alt="eth">
+                    <div class="_table__coin-title">Ethereum <span class="_table__coin-code">(ETH)</span></div>
+                  </div>
+                </td>
+                <td class="_table__data">$1644,91.03</td>
+                <td class="_table__data">
+                  <div class="_table__quotes">
+                    <img class="_table__quotes-icon" src="img/arrow.svg" alt="arrow">
+                    <div class="_table__quotes-value">4.76%</div>
+                  </div>
+                </td>
+                <td class="_table__data">4.76%</td>
+                <td class="_table__data">
+                  <img class="_table__grafic" src="img/Vector.svg" alt="">
+                </td>
+              </tr>
+              <tr class="_table__row">
+                <td class="_table__data">
+                  <img class="__table__favorite" src="img/star.svg" alt="">
+                </td>
+                <td class="_table__data">
+                  <div class="_table__coin">
+                    <img class="_table__coin-icon" src="img/Safepal1.svg" alt="eth">
+                    <div class="_table__coin-title">Ethereum <span class="_table__coin-code">(ETH)</span></div>
+                  </div>
+                </td>
+                <td class="_table__data">$1644,91.03</td>
+                <td class="_table__data">
+                  <div class="_table__quotes">
+                    <img class="_table__quotes-icon" src="img/arrow.svg" alt="arrow">
+                    <div class="_table__quotes-value">4.76%</div>
+                  </div>
+                </td>
+                <td class="_table__data">4.76%</td>
+                <td class="_table__data">
+                  <img class="_table__grafic" src="img/Vector.svg" alt="">
+                </td>
+              </tr>
+              <tr class="_table__row">
+                <td class="_table__data">
+                  <img class="__table__favorite" src="img/star.svg" alt="">
+                </td>
+                <td class="_table__data">
+                  <div class="_table__coin">
+                    <img class="_table__coin-icon" src="img/Safepal1.svg" alt="eth">
+                    <div class="_table__coin-title">Ethereum <span class="_table__coin-code">(ETH)</span></div>
+                  </div>
+                </td>
+                <td class="_table__data">$1644,91.03</td>
+                <td class="_table__data">
+                  <div class="_table__quotes">
+                    <img class="_table__quotes-icon" src="img/arrow.svg" alt="arrow">
+                    <div class="_table__quotes-value">4.76%</div>
+                  </div>
+                </td>
+                <td class="_table__data">4.76%</td>
+                <td class="_table__data">
+                  <img class="_table__grafic" src="img/Vector.svg" alt="">
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+        <div class="_section__button">
+          <button class="_button--bottom">See All Markets</button>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class=" container">
+        <div class="info">
+          <h2 class="info__title">On-Ramp with most payment methods</h2>
+
+          <div class="info__static">
+
+            <div class="info__item">
+              <p class="info__number">135+</p>
+              <p class="info__support">Supported Cryptocurrencies</p>
+            </div>
+
+            <div class="info__item">
+              <p class="info__number">100+</p>
+              <p class="info__support">Supported Countries</p>
+            </div>
+
+            <div class="info__item">
+              <p class="info__number">75+</p>
+              <p class="info__support">Supported Blockchains</p>
+            </div>
+
+            <div class="info__item">
+              <p class="info__number">20+</p>
+              <p class="info__support">Local Payment Methods</p>
+
+            </div>
+          </div>
+          <div class="info__paypic">
+            <img class="info__pic" src="img/tinkof.svg" alt="bank">
+            <img class="info__pic" src="img/tinkof.svg" alt="bank">
+            <img class="info__pic" src="img/tinkof.svg" alt="bank">
+            <img class="info__pic" src="img/tinkof.svg" alt="bank">
+            <img class="info__pic" src="img/tinkof.svg" alt="bank">
+            <img class="info__pic" src="img/tinkof.svg" alt="bank">
+            <img class="info__pic" src="img/tinkof.svg" alt="bank">
+            <img class="info__pic" src="img/tinkof.svg" alt="bank">
+            <img class="info__pic" src="img/tinkof.svg" alt="bank">
+            <img class="info__pic" src="img/tinkof.svg" alt="bank">
+            <img class="info__pic" src="img/tinkof.svg" alt="bank">
+            <img class="info__pic" src="img/tinkof.svg" alt="bank">
+            <img class="info__pic" src="img/tinkof.svg" alt="bank">
+            <img class="info__pic" src="img/tinkof.svg" alt="bank">
+            <img class="info__pic" src="img/tinkof.svg" alt="bank">
+            <img class="info__pic" src="img/tinkof.svg" alt="bank">
+            <img class="info__pic" src="img/tinkof.svg" alt="bank">
+          </div>
+
+          <div class="info__buttons info__buttons--pay">
+            <a class="info__link-start" href="#">Start Trading
+              <img src="img/arrange-square.svg" alt="">
+            </a>
+            <a class="info__link-end" href="#">Log In</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section class="section section--gradient-end">
+      <div class="section__container container">
+        <div class="partners">
+          <div class="partners__start">
+            <img class="partners__img" src="img/iphone.svg" alt="iPhone">
+            <img class="partners__img--small" src="img/iphone1.svg" alt="iPhone">
+          </div>
+          <div class="partners__info">
+            <h2 class="partners__title">Launching<br><span>Partners</span></h2>
+            <p class="partners__paragraph">Our first partners using <img class="paragraph__img" src="img/logo1.svg"
+                alt="logo1" style="
+                display: inline;
+                vertical-align: middle;
+                "> Bitsayex</p>
+            <div class="img__info">
+              <img src="img/cask1.svg" alt="cask">
+              <img src="img/ovix1.svg" alt="ovix">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section--gradient-start">
+      <div class="section__container container">
+        <div class="transactions">
+          <div class="transactions__start">
+            <h2 class="transactions__title">Processing transactions on 75+ networks</h2>
+          </div>
+          <ul class="transactions__end">
+            <li class="transactions__coins">
+              <a class="transactions__link" href="#"><img class="transactions__img" src="img/et1h.svg" alt="coin"></a>
+              <a class="transactions__link" href="#"><img class="transactions__img" src="img/et1h.svg" alt="coin"></a>
+              <a class="transactions__link" href="#"><img class="transactions__img" src="img/et1h.svg" alt="coin"></a>
+              <a class="transactions__link" href="#"><img class="transactions__img" src="img/et1h.svg" alt="coin"></a>
+              <a class="transactions__link" href="#"><img class="transactions__img" src="img/et1h.svg" alt="coin"></a>
+              <a class="transactions__link" href="#"><img class="transactions__img" src="img/et1h.svg" alt="coin"></a>
+              <a class="transactions__link" href="#"><img class="transactions__img" src="img/et1h.svg" alt="coin"></a>
+              <a class="transactions__link" href="#"><img class="transactions__img" src="img/et1h.svg" alt="coin"></a>
+              <a class="transactions__link" href="#"><img class="transactions__img" src="img/et1h.svg" alt="coin"></a>
+              <a class="transactions__link" href="#"><img class="transactions__img" src="img/et1h.svg" alt="coin"></a>
+              <a class="transactions__link" href="#"><img class="transactions__img" src="img/et1h.svg" alt="coin"></a>
+              <a class="transactions__link" href="#"><img class="transactions__img" src="img/et1h.svg" alt="coin"></a>
+              <a class="transactions__link" href="#"><img class="transactions__img" src="img/et1h.svg" alt="coin"></a>
+              <a class="transactions__link" href="#"><img class="transactions__img" src="img/et1h.svg" alt="coin"></a>
+              <a class="transactions__link" href="#"><img class="transactions__img" src="img/et1h.svg" alt="coin"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="about_us">
+          <div class="about_us__column">
+            <p class="column__paragraph">Bitsayex</p>
+            <a href="" class="column__link">Terms of Use</a>
+            <a href="" class="column__link">Privacy Policy</a>
+            <a href="" class="column__link">KYC & AML</a>
+            <a href="" class="column__link">Fees</a>
+            <a href="" class="column__link">Bug Bounty</a>
+          </div>
+
+          <div class="about_us__column">
+            <p class="column__paragraph">Products</p>
+            <a href="" class="column__link">Spot Trading</a>
+            <a href="" class="column__link">Buy Crypto</a>
+            <a href="" class="column__link">Earn</a>
+            <a href="" class="column__link">Exchange</a>
+            <a href="" class="column__link">Referral Rewards</a>
+          </div>
+
+          <div class="about_us__column">
+            <p class="column__paragraph">Support & Services</p>
+            <a href="" class="column__link">Live Chat Service</a>
+            <a href="" class="column__link">FAQ</a>
+            <a href="" class="column__link">News</a>
+          </div>
+
+          <div class="about_us__column">
+            <p class="column__paragraph">Market Tools</p>
+            <a href="" class="column__link">Crypto Market Cap</a>
+            <a href="" class="column__link">Market Screener</a>
+            <a href="" class="column__link">Technical Analysis</a>
+            <a href="" class="column__link">Cross Rates</a>
+            <a href="" class="column__link">Currency Heat map</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <a href="#" class="footer__logo">
+          <img class="icon logo__icon" width="31px" height="35px" src="img/logo.svg" alt="logo">
+          <span class="logo__title">Bitsayex</span>
+        </a>
+      </div>
+      <div class="footer__right">
+        <p class="footer__paragraph">Cryptocurrency Exchange with US MSB Licence</p>
+        <p class="footer__copyright">
+          Copyright © 2023. All Rights Reserved to Bitsayex Cryptocurrency Exchange
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+
+
+</html>
