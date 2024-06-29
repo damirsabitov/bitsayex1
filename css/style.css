@@ -4,8 +4,6 @@
 
 .raleway-uniquifier {
   font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
   font-style: normal;
 }
 
@@ -60,6 +58,11 @@ body {
 
 /* * icon */
 
+.logo__icon {
+  width: 31px;
+  height: 35px;
+}
+
 /* * container */
 .container {
   max-width: var(--container-max-width-medium);
@@ -88,11 +91,6 @@ body {
 }
 
 /* * nav */
-
-.logo__icon {
-  width: 31px;
-  height: 35px;
-}
 
 .nav__container {
   display: flex;
@@ -152,7 +150,6 @@ body {
   font-size: 14px;
   text-decoration: none;
 
-  background-color: var(--nav-link-background-color, transition);
   color: #ffffff;
 }
 
@@ -176,7 +173,6 @@ body {
   font-size: 14px;
   text-decoration: none;
 
-  background-color: var(--nav-link-background-color, transition);
   color: #ffffff;
 }
 
@@ -197,7 +193,6 @@ body {
   font-size: 14px;
   text-decoration: none;
 
-  background-color: var(--nav-link-background-color, transition);
   color: #ffffff;
 }
 
@@ -479,7 +474,6 @@ body {
 
 .crypto__grafic-svg {
   z-index: -10;
-  padding-right: -30px;
 }
 
 .crypto__btn-link {
@@ -703,7 +697,6 @@ body {
   gap: 12px;
 
   font-size: 14px;
-  letter-spacing: -1.1%;
 }
 
 /* * размеры иконки коина */
@@ -740,7 +733,6 @@ body {
 /* * значение котировки коина */
 ._table__quotes-value {
   font-size: 14px;
-  letter-spacing: -1.1%;
 }
 
 /* * картинка графика */
@@ -1549,7 +1541,6 @@ body {
 }
 
 ._button--bottom {
-  max-width: auto;
   width: 100%;
   border: none;
   padding: 12px 32px;

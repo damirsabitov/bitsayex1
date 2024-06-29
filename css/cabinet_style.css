@@ -67,6 +67,12 @@ body {
 
 /* * icon */
 
+
+.logo__icon {
+  width: 31px;
+  height: 35px;
+}
+
 /* * container */
 .container {
   max-width: var(--container-max-width-medium);
@@ -657,6 +663,7 @@ body {
   font-size: 18px;
   color: #fff;
   align-items: center;
+  width: 30px;
 }
 
 .account__security {

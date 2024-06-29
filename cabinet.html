@@ -11,6 +11,11 @@
     rel="stylesheet">
   <link rel="stylesheet" href="css/cabinet_style.css">
   <title>Document</title>
+  <style>
+    .hidden {
+      display: none;
+    }
+  </style>
 </head>
 
 <body>
@@ -19,7 +24,7 @@
       <div class="nav__container container">
         <div class="nav__start">
           <a href="index.html" class="nav__link nav__link--logo logo">
-            <img class="icon logo__icon" width="31px" height="35px" src="img/logo.svg" alt="logo">
+            <img class="icon logo__icon" src="img/logo.svg" alt="logo">
             <span class="logo__title">Bitsayex</span>
           </a>
         </div>
@@ -266,11 +271,7 @@
               </div>
 
             </div>
-            <style>
-              .hidden {
-                display: none;
-              }
-            </style>
+
             <script>
 
 
@@ -310,7 +311,7 @@
                 </div>
                 <div class="account__verify">
                   <p class="verify__paragraph">Identity verification <img src="img/arrow-right.svg" alt="arrow"></p>
-                  <p class="verify__paragraph--fail"><img width="30px" src="img/user-octagon.svg" alt="danger">
+                  <p class="verify__paragraph--fail"><img src="img/user-octagon.svg" alt="danger">
                     Verification failed
                   </p>
                 </div>
@@ -390,7 +391,6 @@
         </div>
 
       </div>
-      </div>
     </section>
     <section class="section">
       <div class="container container--small">
@@ -410,6 +410,7 @@
       </div>
     </section>
     <section class="section">
+      <h1 class="visually-hidden">1</h1>
       <div class="container">
         <div class="card crypto__table">
           <div class="crypto__info">
@@ -423,12 +424,11 @@
                   <path d="M6.3125 6.36755H4.625" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
                   <path d="M6.875 8.61755H4.625" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
                   <defs>
-                    <linearGradient id="paint0_linear_888_8960" x1="-7.62502" y1="16" x2="3.45004" y2="-5.0452"
-                      gradientUnits="userSpaceOnUse">
-                      <stop stop-color="#4AC7FA" />
+                    <linearGradient x1="-7.62502" y1="16" x2="3.45004" y2="-5.0452" gradientUnits="userSpaceOnUse">
+                      <stop offset="0" stop-color="#4AC7FA" />
                       <stop offset="1" stop-color="#E649F5" />
                     </linearGradient>
-                    <filter id="glow">
+                    <filter>
                       <feGaussianBlur stdDeviation="3" result="coloredBlur" />
                       <feMerge>
                         <feMergeNode in="coloredBlur" />
@@ -451,9 +451,8 @@
                   <path d="M12.8625 7.63501H5.13751" stroke="white" stroke-miterlimit="10" stroke-linecap="round"
                     stroke-linejoin="round" />
                   <defs>
-                    <linearGradient id="paint0_linear_888_8960" x1="-7.62502" y1="16" x2="3.45004" y2="-5.0452"
-                      gradientUnits="userSpaceOnUse">
-                      <stop stop-color="#4AC7FA" />
+                    <linearGradient x1="-7.62502" y1="16" x2="3.45004" y2="-5.0452" gradientUnits="userSpaceOnUse">
+                      <stop offset="0" stop-color="#4AC7FA" />
                       <stop offset="1" stop-color="#E649F5" />
                     </linearGradient>
                     <filter id="glow">
@@ -480,12 +479,11 @@
                     d="M14.375 8.25C16.239 8.25 17.75 6.73896 17.75 4.875C17.75 3.01104 16.239 1.5 14.375 1.5C12.511 1.5 11 3.01104 11 4.875C11 6.73896 12.511 8.25 14.375 8.25Z"
                     stroke="white" stroke-linecap="round" stroke-linejoin="round" />
                   <defs>
-                    <linearGradient id="paint0_linear_888_8960" x1="-7.62502" y1="16" x2="3.45004" y2="-5.0452"
-                      gradientUnits="userSpaceOnUse">
-                      <stop stop-color="#4AC7FA" />
+                    <linearGradient x1="-7.62502" y1="16" x2="3.45004" y2="-5.0452" gradientUnits="userSpaceOnUse">
+                      <stop offset="0" stop-color="#4AC7FA" />
                       <stop offset="1" stop-color="#E649F5" />
                     </linearGradient>
-                    <filter id="glow">
+                    <filter>
                       <feGaussianBlur stdDeviation="3" result="coloredBlur" />
                       <feMerge>
                         <feMergeNode in="coloredBlur" />
@@ -514,10 +512,10 @@
                   <defs>
                     <linearGradient id="paint0_linear_888_8960" x1="-7.62502" y1="16" x2="3.45004" y2="-5.0452"
                       gradientUnits="userSpaceOnUse">
-                      <stop stop-color="#4AC7FA" />
+                      <stop offset="0" stop-color="#4AC7FA" />
                       <stop offset="1" stop-color="#E649F5" />
                     </linearGradient>
-                    <filter id="glow">
+                    <filter>
                       <feGaussianBlur stdDeviation="3" result="coloredBlur" />
                       <feMerge>
                         <feMergeNode in="coloredBlur" />
@@ -535,6 +533,7 @@
           <section class="_section">
             <div class="_section__container container">
               <header class="_section__header">
+                <h2 class="visually-hidden">1</h2>
               </header>
               <div class="_section__overflow">
                 <table class="_table">
@@ -545,7 +544,6 @@
                       <th class="_table__title">Available</th>
                       <th class="_table__title">In Order</th>
                       <th class="_table__title">Action</th>
-                      <th class="_table__title"></th>
                     </tr>
                   </thead>
                   <tbody class="_table__body">
@@ -1069,7 +1067,7 @@
     <div class="container">
       <div class="footer__wrapper">
         <a href="#" class="footer__logo">
-          <img class="icon logo__icon" width="31px" height="35px" src="img/logo.svg" alt="logo">
+          <img class="icon logo__icon" src="img/logo.svg" alt="logo">
           <span class="logo__title">Bitsayex</span>
         </a>
       </div>
@@ -1081,7 +1079,8 @@
       </div>
     </div>
   </footer>
+  <script src="js/main.js"></script>
 </body>
-<script src="js/main.js"></script>
+
 
 </html>
