@@ -367,6 +367,12 @@ body {
   color: #ffffff;
   margin-right: 16px;
   justify-content: space-around;
+  align-items: center;
+}
+
+.info__link__start__img {
+  width: 18px;
+  height: 18px;
 }
 
 .info__link-end {
