@@ -89,6 +89,10 @@ body {
 
 /* * nav */
 
+.logo__icon {
+  width: 31px;
+  height: 35px;
+}
 
 .nav__container {
   display: flex;
